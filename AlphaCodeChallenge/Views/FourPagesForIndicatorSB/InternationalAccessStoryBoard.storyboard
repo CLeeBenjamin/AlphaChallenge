@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S8O-uM-fZB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Z87-sE-uO4">
+            <objects>
+                <viewController restorationIdentifier="InternationalAccessStoryBoard" storyboardIdentifier="InternationalAccessStoryBoard" id="S8O-uM-fZB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pv4-hl-Pg0" customClass="UIViewDesignable" customModule="AlphaCodeChallenge" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="International Access" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucS-DI-ksQ">
+                                <rect key="frame" x="0.0" y="73" width="375" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="wyK-mh-KR4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text and call any country internationally" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6S-BZ-YN5">
+                                <rect key="frame" x="0.0" y="114" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59215686274509804" green="0.62745098039215685" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ucS-DI-ksQ" firstAttribute="top" secondItem="YsR-Eg-Yut" secondAttribute="top" constant="53" id="Vtp-pj-Vl6"/>
+                            <constraint firstItem="ucS-DI-ksQ" firstAttribute="trailing" secondItem="YsR-Eg-Yut" secondAttribute="trailing" id="Vyu-6B-Q48"/>
+                            <constraint firstItem="ucS-DI-ksQ" firstAttribute="leading" secondItem="YsR-Eg-Yut" secondAttribute="leading" id="eDi-Gl-YUC"/>
+                            <constraint firstItem="Y6S-BZ-YN5" firstAttribute="leading" secondItem="YsR-Eg-Yut" secondAttribute="leading" id="gAJ-xK-JkT"/>
+                            <constraint firstItem="Y6S-BZ-YN5" firstAttribute="top" secondItem="ucS-DI-ksQ" secondAttribute="bottom" constant="8" symbolic="YES" id="jAp-D4-9A2"/>
+                            <constraint firstItem="Y6S-BZ-YN5" firstAttribute="trailing" secondItem="YsR-Eg-Yut" secondAttribute="trailing" id="zYm-DH-0Wp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YsR-Eg-Yut"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                <color key="value" red="0.59215686270000001" green="0.62745098040000002" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                <color key="value" red="0.75686274509803919" green="0.792156862745098" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLl-RO-x6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

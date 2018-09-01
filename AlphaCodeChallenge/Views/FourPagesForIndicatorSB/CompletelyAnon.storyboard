@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dfv-RM-6V0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="KrH-Ao-sLG">
+            <objects>
+                <viewController restorationIdentifier="CompletelyAnon" storyboardIdentifier="CompletelyAnon" id="Dfv-RM-6V0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TYD-MQ-5Qq" customClass="UIViewDesignable" customModule="AlphaCodeChallenge" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Completely Anonymous" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1m-zI-rVT">
+                                <rect key="frame" x="0.0" y="73" width="375" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="ySp-RY-DfS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send calls and texts securely" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUi-Oo-Vob">
+                                <rect key="frame" x="0.0" y="114" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.82745098039215681" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PUi-Oo-Vob" firstAttribute="trailing" secondItem="sbB-HQ-FdN" secondAttribute="trailing" id="Ktw-Oc-YuA"/>
+                            <constraint firstItem="G1m-zI-rVT" firstAttribute="trailing" secondItem="sbB-HQ-FdN" secondAttribute="trailing" id="OaX-cf-XZM"/>
+                            <constraint firstItem="PUi-Oo-Vob" firstAttribute="top" secondItem="G1m-zI-rVT" secondAttribute="bottom" constant="8" symbolic="YES" id="T2O-U8-lBP"/>
+                            <constraint firstItem="G1m-zI-rVT" firstAttribute="leading" secondItem="sbB-HQ-FdN" secondAttribute="leading" id="XAQ-7f-a4d"/>
+                            <constraint firstItem="PUi-Oo-Vob" firstAttribute="leading" secondItem="sbB-HQ-FdN" secondAttribute="leading" id="mUS-HW-C0y"/>
+                            <constraint firstItem="G1m-zI-rVT" firstAttribute="top" secondItem="sbB-HQ-FdN" secondAttribute="top" constant="53" id="sBf-O5-Uuq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sbB-HQ-FdN"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                <color key="value" red="0.20000000000000001" green="0.82745098039215681" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                <color key="value" red="0.24705882352941178" green="0.98431372549019602" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Be-nS-sFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="166.8665667166417"/>
+        </scene>
+    </scenes>
+</document>
